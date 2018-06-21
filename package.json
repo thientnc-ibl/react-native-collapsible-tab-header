@@ -19,7 +19,6 @@
     "README.md"
   ],
   "devDependencies": {
-    "ava": "^0.22.0",
     "babel-eslint": "^8.0.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-expo": "^4.0.0",
@@ -36,14 +35,12 @@
     "flow-bin": "^0.53.0",
     "jest-expo": "^21.0.2",
     "sinon": "^3.2.1",
-    "@hocs/with-lifecycle": "^0.2.0",
     "lodash": "^4.17.4",
     "prop-types": "^15.6.0",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.48.4",
     "react-native-tab-view": "^0.0.69",
     "react-native-vector-icons": "^4.4.0",
-    "semantic-release": "^11.0.2"
   },
   "ava": {
     "babel": "inherit",
@@ -53,6 +50,9 @@
     ]
   },
   "dependencies": {
+    "semantic-release": "^11.0.2"
+    "ava": "^0.22.0",
+    "@hocs/with-lifecycle": "^0.2.0",
     "recompose": "^0.25.1"
   },
   "config": {
